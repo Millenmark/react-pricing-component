@@ -13,7 +13,9 @@ function App() {
         className="absolute bottom-0 left-0"
       />
 
-      <PricingScreen />
+      <main>
+        <PricingScreen />
+      </main>
     </div>
   );
 }
