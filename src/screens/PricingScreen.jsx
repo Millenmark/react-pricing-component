@@ -13,7 +13,7 @@ const PricingScreen = () => {
   };
 
   return (
-    <div className="container mx-auto min-h-screen gap-8 flex justify-center items-center flex-col border-2">
+    <div className="container mx-auto min-h-screen gap-8 flex justify-center items-center flex-col">
       <h1 className="z-10 font-bold text-3xl text-neutral-grayish-blue">
         Our Pricing
       </h1>
