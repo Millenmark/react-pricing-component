@@ -13,7 +13,7 @@ const PricingScreen = () => {
   };
 
   return (
-    <div className="container mx-auto min-h-screen gap-8 flex justify-center items-center flex-col">
+    <div className="container mx-auto xl:scale-[1.2] min-h-screen gap-8 flex justify-center items-center flex-col">
       <h1 className="z-10 font-bold text-3xl text-neutral-grayish-blue">
         Our Pricing
       </h1>
@@ -26,7 +26,7 @@ const PricingScreen = () => {
           storage="500 GB"
           allowedUsers="2"
           upTo="3"
-          className=" bg-neutral-very-light-grayish-blue max-w-xl h-[22rem]"
+          className=" bg-white max-w-xl h-[22rem]"
         />
         <PricingCard
           name="Professional"
@@ -35,7 +35,7 @@ const PricingScreen = () => {
           allowedUsers="5"
           upTo="10"
           middle
-          className=" bg-gradient-to-br max-w-xl h-80 from-primary-gradient-start to-primary-gradient-end md:w-72 md:max-w-xl md:h-[25rem]"
+          className="  bg-gradient-to-br max-w-xl h-[22rem] from-primary-gradient-start to-primary-gradient-end md:w-72 md:max-w-xl md:h-[25rem]"
         />
         <PricingCard
           name="Master"
@@ -43,7 +43,7 @@ const PricingScreen = () => {
           storage="2 TB"
           allowedUsers="10"
           upTo="20"
-          className=" bg-neutral-very-light-grayish-blue max-w-xl h-[22rem]"
+          className=" bg-white max-w-xl h-[22rem]"
         />
       </div>
     </div>

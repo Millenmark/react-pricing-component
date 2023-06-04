@@ -5,7 +5,7 @@ const Toggle = () => {
   const { isToggleActive, handleToggleActive } = useContext(ToggleContext);
 
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center cursor-pointer">
+    <div className="w-full h-full flex flex-col justify-center items-center cursor-pointer z-30">
       <div className="flex justify-center items-center">
         <span className=" text-neutral-light-grayish-blue text-sm font-bold">
           Annually

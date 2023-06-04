@@ -17,7 +17,13 @@ const PricingCard = ({
     >
       <div>
         <h2>{name}</h2>
-        <p className="p-6 text-5xl flex items-center justify-center gap-1">
+        <p
+          className={` ${
+            middle
+              ? " text-neutral-very-light-grayish-blue"
+              : "text-neutral-dark-grayish-blue"
+          } p-6 text-5xl flex items-center justify-center gap-1 `}
+        >
           <span className="text-2xl">$</span>
           {price}
         </p>
