@@ -5,7 +5,7 @@ import PricingScreen from "./screens/PricingScreen";
 
 function App() {
   return (
-    <div className="bg-neutral-very-light-grayish-blue min-h-screen relative">
+    <div className="bg-neutral-very-light-grayish-blue min-h-screen relative overflow-hidden">
       <img src={bgTop} alt="background" className="absolute top-0 right-0" />
       <img
         src={bgBottom}
